@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>To do List</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="index.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>Make Your To Do List</h1>
+        <div class="input-field">
+            <input type="text" name="" id="input-data" placeholder="ENTER YOUR TASK">
+            <button class="add-task">Add Task</button>
+        </div>
+        <div class="all-tasks">
+            <h3>All-Tasks</h3>
+            <ul class="list_cont">
+                <!-- <li class="lists"><i class="fa-sharp fa-regular fa-circle-check"></i> ${input_task.value} <span>\u00d7</span> </li> -->
+            </ul>
+        </div>
+        <button class="clear" onclick="removeAll()">clear All</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
